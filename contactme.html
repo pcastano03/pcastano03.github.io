@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <style>
+        h3 {color: rgb(255, 255, 255); background-color: rgb(0,0,0);}
+        hr {border-top: 5px solid black; border-radius: 3px;}
+        form {/* Center the form on the page */ margin: 0 auto; width: 400px; /* Form outline */ padding: 1em; border: 1px solid grey; border-radius: 1em;}
+        #formlist {list-style: none; padding: 0; margin: 0;}
+        form li + li {margin-top: 0.5em;}
+        label {/* Uniform size & alignment */ display: inline-block; width: 90px; text-align: right;}
+        input, textarea {/* Uniform text field size */ width: 300px; box-sizing: border-box; /* Match form field borders */border: 1px solid grey; border-radius: 1em;}
+        input:focus, textarea:focus {/* Additional highlight for focused elements */ border-color: #000;}
+        textarea {/* Align multiline text fields with their labels */vertical-align: top;/* Provide space to type some text */ height: 5em;}
+        .button {/* Align buttons with the text fields */ padding-left: 90px; /* same size as the label elements */}
+        button {/* space between the labels and their text fields */ margin-left: .5em;}
+    </style>
+    <h1>Contact me</h1>
+    <a href="index.html" target="_top"></p>
+        <p3 id="Main website">Go back to the main site</a></p3><p2> |</p2>
+    <p2><a href="faq.html" target="_self">
+        </p2>About me</a>
+    <p2>|</p2>
+    <p2><a href="cool.html" target="_self"></p2>Projects</a></p2>
+</head>
+<body style="background-color: rgb(137, 206, 247);">
+    <hr>
+    <h3>Fill in this form to ask me anything you need:</h3>
+    <p>Required spaces are marked with *</p>
+    <form action="https://docs.google.com/spreadsheets/d/1BrLrtS8zjHu6fPpi9EW1eXbM86jnWUUiSYZFHt6oV84/edit" method="post">
+        <ul id="formlist">
+            <li>
+              <label for="name"><strong>Enter your name:</strong></label>
+              <input type="text" STYLE="color: whitesmoke; font-family: Helvetica; font-weight: bold; font-size: 12px; background-color: rgb(8, 71, 131);" size="10" maxlength="25"id="name" name="user_name">
+            </li>
+            <li>
+                <label for="lastname"><strong>Enter your last name:</strong></label>
+                <input type="text" STYLE="color: whitesmoke; font-family: Helvetica; font-weight: bold; font-size: 12px; background-color: #72A4D2;" size="10" maxlength="25" id="lastname" name="user_lastname">
+            </li>
+            <li>
+                <label for="email"><strong>Enter your email please:</strong></label>
+                <input type="email" STYLE="color: whitesmoke; font-family: Helvetica; font-weight: bold; font-size: 12px; background-color: rgb(8, 71, 131);" size="10" maxlength="45" id="email" name="user_email">
+            </li>
+            <li>
+              <label for="msg"><strong>Message:</strong></label>
+              <textarea id="msg" STYLE="color: whitesmoke; font-family: Helvetica; font-weight: bold; font-size: 12px; background-color: #72A4D2;" size="10" name="user_message"></textarea>
+            </li>
+            <li class="button">
+                <button type="submit">Send your message</button>
+              </li>
+           </ul>
+    </form> 
+</body>
+</html>

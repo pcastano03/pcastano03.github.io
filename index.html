@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Castaño</title>
+    <style>
+        hr{border-top: 5px solid black; border-radius: 3px;}
+        /*FONT*/ p, a {font-family: "Helvetica", sans-serif;}
+                 h3 {font-family: cursive;}
+        h3, #whatsnew, #photos, #research {color: rgb(255, 255, 255); background-color: rgb(0,0,0);}
+        body{background-color: rgb(137, 206, 247);}
+        button{background-color: rgb(16, 16, 197); border-color: rgb(16, 16, 197); color: rgb(255,255,255)}
+        table {border-width: 2px; border-color: black; border-radius: 1px;}
+        /* a {text-decoration: none;}  MAYBE USE IT LATER*/ 
+    </style>
+    <a href="https://www.instagram.com/pablo.castano/?hl=en" target="_blank"><img STYLE="position:absolute; TOP:14px; LEFT:85px; WIDTH:35px; HEIGHT:35px" SRC="Insta logo.png"></a>
+    <a href="https://www.facebook.com/pablo.castanobasurto.3"><img STYLE="position:absolute; TOP:16px; LEFT:125px; WIDTH:30px; HEIGHT:30px" SRC=https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512">
+    <hr>
+    <p1 id="goback"><a href="mailto:pablo.castano2003@gmail.com">My Email</a></p1><br><br>
+    <p2><a href="faq.html" target="_self"></p2>About me</a></p2>
+    <p2>|</p2>
+    <p2><a href="cool.html" target="_self"></p2>Projects</a></p2>
+    <p2>|</p2>
+    <p2><a href="contactme.html" target="_self"></p2>Any Questions?</a></p2>
+    <hr>
+</head>
+<body>
+    <h1><strong>Pablo Castaño</strong></h1> 
+    <p>Hi <em>everyone</em>, I am Pablo, I am 16 years old, and this is my <em>brand</em> new website! I hope you enjoy it!<br>- Regards from Spain!!</p1>
+    <h3 id="contents">Table of Contents in this website:</h3>
+    <table>
+        <thead>
+        </thead>
+        <tbody>
+            <tr><td><a href="#whatsnew">What's new</a></td></tr>
+            <tr><td><a href="#photos">Amazing photos and videos</a></td></tr>
+            <tr><td><a href="#research">Research</a></td></tr>
+        </tbody>
+    </table>
+    <h3 id="whatsnew">What's new:</h3>
+    <div style="text-align:center"> 
+        <button onclick="playPause()">Play/Pause</button> 
+        <button onclick="makeSmall()">Smaller</button>
+        <button onclick="makeNormal()">Normal</button>
+        <button onclick="makeBig()">Bigger</button>
+        <br><br>
+        <video id="video1" width="420">
+          <source src="coverr-aerial-view-of-golden-gate-bridge-1585728910852.mp4" type="video/mp4">
+        </video>
+      </div> 
+      <script> 
+      var myVideo = document.getElementById("video1"); 
+      function playPause() {if (myVideo.paused) myVideo.play(); else myVideo.pause();}  
+      function makeSmall() {myVideo.width = 320;} 
+      function makeNormal() {myVideo.width = 420;} 
+      function makeBig() {myVideo.width = 560;}
+      </script>
+    <h3 id="photos">Amazing photos and videos:</h3>
+    
+    <h3 id="research">My recent research:</h3>
+
+    <a href="#goback">Go back to top</a>
+</body>
+</html>
